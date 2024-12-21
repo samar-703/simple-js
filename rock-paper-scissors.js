@@ -59,7 +59,7 @@ let score=JSON.parse(localStorage.getItem('score')) ||
         localStorage.setItem('score', JSON.stringify(score));
 
         updateScoreElement();
-
+        
         document.querySelector(".js-result").innerHTML=result;
 
         document.querySelector(".js-moves")
